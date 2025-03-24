@@ -1,4 +1,4 @@
-# Task Management Application
+# Task Management System
 
 A simple, minimalistic task management application built with vanilla JavaScript, HTML, and CSS. This application allows users to add, edit, delete, and view tasks, as well as filter and search through their task list.
 
@@ -15,23 +15,20 @@ A simple, minimalistic task management application built with vanilla JavaScript
 ### Additional Features
 - **Search**: Search for tasks by title or description
 - **Due Dates**: Set and track due dates for your tasks
-- **Task Priority**: Assign priority levels (low/medium/high) with color coding
-- **Visual Indicators**: Easily identify overdue tasks and task priorities
 - **Local Storage**: Your tasks persist even after closing the browser
-- **Responsive Design**: Works on both desktop and mobile devices
-- **User Feedback**: Get notifications for successful/failed operations
+- **Reminder**: Set reminders for tasks that will notify you when the deadline approaches.  
 
 ## Installation
 
 1. Clone the repository or download the ZIP file
    ```
-   git clone https://github.com/akashsheri98/I414_Akash_sheri_Task_Management_App.git
+   git clone https://github.com/abdullahfirdowsi/I400-TaskManagementSystem.git
    
    ```
 
 2. Navigate to the project directory
    ```
-   cd I414_Akash_sheri_Task_Management_App
+   cd I400-TaskManagementSystem
    ```
 
 3. Open `index.html` in your web browser
@@ -39,6 +36,10 @@ A simple, minimalistic task management application built with vanilla JavaScript
 No additional installation or dependencies are required! The application runs completely in the browser.
 
 ## How to Use
+
+### Put the List Name
+1. Fill in the list details in the form at the top
+2. Click the "Add" button
 
 ### Adding a Task
 1. Fill in the task details in the form at the top
@@ -58,18 +59,18 @@ No additional installation or dependencies are required! The application runs co
 2. Confirm the deletion when prompted
 
 ### Filtering Tasks
-1. Use the dropdown menu to filter tasks by status (All/Pending/Completed)
+1. Use the "Apply Filters" to filter tasks by status (All/Pending/Completed)
 
 ### Searching Tasks
 1. Type in the search box to filter tasks by title or description
 
-## Project Structure
-
 ```
 task-management-app/
 ├── index.html     # The main HTML structure
+├── views.html     # The views HTML structure for Apply Filter & Search Tasks
+├── reminders.html # The reminders HTML structure for remaining task sorted by datewise
 ├── styles.css     # All styling for the application
-├── app.js         # JavaScript functionality
+├── script.js      # JavaScript functionality
 └── README.md      # Project documentation
 ```
 
@@ -101,6 +102,4 @@ Potential future improvements:
 - Task reminders or notifications
 - Data export/import functionality
 - Drag and drop reordering
-
-# -----------------------------------------
-
+  
