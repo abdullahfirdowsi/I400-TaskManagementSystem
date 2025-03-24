@@ -65,7 +65,7 @@ No additional installation or dependencies are required! The application runs co
 1. Type in the search box to filter tasks by title or description
 
 ```
-task-management-app/
+I400-TaskManagementSystem/
 ├── index.html     # The main HTML structure
 ├── views.html     # The views HTML structure for Apply Filter & Search Tasks
 ├── reminders.html # The reminders HTML structure for remaining task sorted by datewise
